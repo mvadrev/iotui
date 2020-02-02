@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 
-.h-head {
+.auto-head {
   background-color: #282c34;
   color: white;
   font-size: 2rem;
@@ -12,6 +12,7 @@
   z-index: 999;
   display: grid;
   grid-template-columns: 5fr 1fr;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -20,39 +21,20 @@ body {
   height: 100%;
 }
 
-.h-back {
-  filter: invert(1);
-}
-
-.h-header {
+.auto-header {
   display: flex;
   justify-content: left;
 }
 
-.hi-div {
-  padding: 12px 30px;
-  background: #282c34;
-  color: #fff;
-  display: inline-block;
-  margin: 0 auto;
-  margin-top: 15px;
-  box-shadow: 0px 7px 19px 0px #6d696961;
-  width: 15rem;
-  height: 5rem;
-  border-radius: 10px;
+.auto-back {
+  filter: invert(1);
 }
 
-.hi-status {
-  display: flex;
-  justify-content: center;
-  padding-bottom: 1rem;
+.auto-spacer {
+  padding-top: 4rem;
 }
 
-.h-spacer {
-  padding-top: 5rem;
-}
-
-.h-footer {
+.auto-footer {
   background-color: #282c34;
   position: fixed;
   bottom: 0;
@@ -61,26 +43,39 @@ body {
   width: 100%;
 }
 
-.h-homeico {
+.auto-homeico {
   filter: invert(1);
   padding: 0.5rem;
   float: left;
   padding-left: 1rem;
 }
 
-.h-histico {
+.auto-homeico2 {
   filter: invert(1);
   padding: 0.5rem;
   float: left;
   padding-left: 3rem;
 }
 
-.homel1 {
-  padding: 0.5rem;
+.s-body1 {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  padding: 1rem;
+  color: #282c34;
   font-size: 1.5rem;
+  font-family: "Roboto", sans-serif;
+  display: grid;
+  grid-template-columns: 1fr 6fr;
 }
 
-.home-locs {
+.s-body12 {
   display: flex;
+  align-items: center;
+  justify-content: left;
+  padding-left: 1rem;
+}
+
+.s-body11 {
+  display: flex;
+  align-items: center;
   justify-content: left;
 }
