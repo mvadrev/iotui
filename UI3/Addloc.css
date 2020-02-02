@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+.al-head {
+  background-color: #282c34;
+  color: white;
+  font-size: 2rem;
+  padding: 0.8rem;
+  font-family: "Roboto", sans-serif;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+.h-back {
+  filter: invert(1);
+}
+
+.h-header {
+  display: flex;
+  justify-content: left;
+}
+
+.hi-status {
+  display: grid;
+  justify-content: center;
+  padding-bottom: 2rem;
+}
+
+.h-spacer {
+  padding-top: 4rem;
+}
+
+.addloc-divlab {
+  padding-top: 1rem;
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+  padding-left: 0.5rem;
+}
+
+.addloc-inp {
+  box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  height: 1rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  width: 15rem;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.addloc-edit {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.addloc-device {
+  display: grid;
+  grid-template-columns: 1fr 5fr 2fr;
+  font-family: "Roboto", sans-serif;
+  padding: 0.5rem;
+}
+
+.addloc-channel {
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+.addloc-abtns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.addloc-devico {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ht {
+  width: 80%;
+}
+
+.addloc-nxtbtnn {
+  background-color: #01b600;
+  width: 200px;
+  height: 40px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.addloc-nxtbtn {
+  display: flex;
+  justify-content: center;
+  padding-top: 4rem;
+}

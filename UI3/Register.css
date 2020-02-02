@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+.s-head {
+  background-color: #282c34;
+  color: white;
+  font-size: 2rem;
+  padding: 0.8rem;
+  font-family: "Roboto", sans-serif;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+.s-back {
+  filter: invert(1);
+}
+
+.s-signup {
+  display: flex;
+  justify-content: left;
+}
+
+.s-image {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.s-text-top {
+  display: flex;
+  justify-content: center;
+  padding-top: 5rem;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+}
+
+.s-inpbox {
+  display: grid;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.s-inp {
+  box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  height: 1rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  width: 15rem;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.s-lab {
+  font-family: "Roboto", sans-serif;
+  padding-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.s-lab2 {
+  font-family: "Roboto", sans-serif;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.s-btn {
+  background-color: #01b600;
+  width: 200px;
+  height: 40px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.s-btnbox {
+  padding-top: 3rem;
+  display: flex;
+  justify-content: center;
+}
